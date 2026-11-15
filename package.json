@@ -11,8 +11,8 @@
     ]
   },
   "scripts": {
-    "dev": "node api.js && yarn workspace @blinkr/web dev",
-    "build": "node api.js && yarn workspace @blinkr/web build",
+    "dev": "yarn workspace @blinkr/web dev",
+    "build": "yarn workspace @blinkr/web build",
     "anchor:build": "anchor build",
     "test:anchor": "anchor test",
     "test:web": "yarn workspace @blinkr/web test",
